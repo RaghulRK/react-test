@@ -1,22 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Pagination from './components/Pagination';
+import TimerApp from './components/Timer';
+import ObjectManipulation from './components/ObjectManipulation';
+import DragDropList from './components/DragDropList';
+import Debouncing from './components/Debouncing';
+import Throttling from './components/Throttling';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <TimerApp></TimerApp> */}
+        {/* <Pagination></Pagination> */}
+        {/* <ObjectManipulation></ObjectManipulation> */}
+        {/* <DragDropList></DragDropList> */}
+        {/* <Debouncing></Debouncing> */}
+        <Throttling></Throttling>
       </header>
     </div>
   );
