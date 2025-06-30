@@ -5,6 +5,7 @@ import ObjectManipulation from './components/ObjectManipulation';
 import DragDropList from './components/DragDropList';
 import Debouncing from './components/Debouncing';
 import Throttling from './components/Throttling';
+import Toggle from "./components/Toggle";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         {/* <ObjectManipulation></ObjectManipulation> */}
         {/* <DragDropList></DragDropList> */}
         {/* <Debouncing></Debouncing> */}
-        <Throttling></Throttling>
+        {/* <Throttling></Throttling> */}
+        <Toggle></Toggle>
       </header>
     </div>
   );
