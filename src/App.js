@@ -6,6 +6,7 @@ import DragDropList from './components/DragDropList';
 import Debouncing from './components/Debouncing';
 import Throttling from './components/Throttling';
 import Toggle from "./components/Toggle";
+import MainTab from './TabComponent/MainTab';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         {/* <DragDropList></DragDropList> */}
         {/* <Debouncing></Debouncing> */}
         {/* <Throttling></Throttling> */}
-        <Toggle></Toggle>
+        {/* <Toggle></Toggle> */}
+        <MainTab></MainTab>
       </header>
     </div>
   );
